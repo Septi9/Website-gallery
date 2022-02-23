@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+}
+
+
+body {
+    min-height: 200vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    height: 7vh;
+    background-color: #000;
+}
+
+nav i {
+    position: absolute;
+    right: 60px;
+    top: calc((7vh / 2) - 15px);
+    width: 130px;
+    height: 20px;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+nav ul {
+    margin-left: 70px;
+    list-style: none;
+    width: 80%;
+    font-size: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 16.5%;
+}
+
+nav ul li a {
+    font-size: 19px;
+    text-align: center;
+    line-height: 7vh;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+nav ul li a:hover {
+    color: #555;
+}
+
+header {
+    width: 100%;
+    height: 93vh;
+    background-image: url(zegar2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%, 0% 0%, bottom bottom, top top;
+    animation: banner infinite 20s linear;
+}
+
+@keyframes banner {
+    0% {
+         background-image: url(photo5.jpg);
+    }
+    
+    20% {
+         background-image: url(photo5.jpg);
+    }
+    
+    25% {
+         background-image: url(photo6.jpg);
+    }
+    
+    45% {
+         background-image: url(photo6.jpg);
+    }
+    
+    50% {
+         background-image: url(photo7.jpg);
+    }
+    
+    70% {
+         background-image: url(photo7.jpg);
+    }
+    
+    75% {
+         background-image: url(photo8.jpg);
+    }
+    
+    95% {
+         background-image: url(photo8.jpg);
+    }
+    
+    100% {
+         background-image: url(photo5.jpg);
+    }
+}
+
+
+.text {
+    width: 100%;
+    height: 10vh;
+    background-color: #000;
+}
+
+.text h1 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    line-height: 10vh;
+}
+
+
+section {
+    position: relative;
+    width: 100%;
+    height: 150vh;
+    background-color: #000;
+}
+
+.galery1 {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 40%;
+    height: 50vh;
+    margin-left: 70px;
+    overflow: hidden;
+}
+
+
+.galery1>img {
+    width: 100%;
+}
+
+
+.galery2 {
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    width: 40%;
+    height: 50vh;
+    margin-right: 70px;
+    overflow: hidden;
+}
+
+
+.galery2>img {
+    width: 100%;
+}
+
+.galery3 {
+    position: absolute;
+    top: 80vh;
+    left: 0;
+    width: 40%;
+    height: 50vh;
+    margin-left: 70px;
+    overflow: hidden;
+}
+
+
+.galery3>img {
+    width: 100%;
+}
+
+
+.galery4 {
+    position: absolute;
+    top: 80vh;
+    right: 0;
+    width: 40%;
+    height: 50vh;
+    margin-right: 70px;
+    overflow: hidden;
+}
+
+
+.galery4>img {
+    width: 100%;
+}
+
+section>div>img {
+    transition: .5s;
+    cursor: pointer;
+}
+
+section>div>img:hover {
+    transform: scale(1.1);
+}
+
+
+footer {
+    height: 5vh;
+    width: 100%;
+    background-color: #000;
+}
+
+footer>p {
+    text-align: center;
+    line-height: 5vh;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
